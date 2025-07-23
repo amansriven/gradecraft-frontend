@@ -10,7 +10,8 @@ import {
   Tooltip,
   Legend,
   ArcElement,
-  BarElement
+  BarElement,
+  Filler
 } from 'chart.js';
 import { Line, Pie, Bar } from 'react-chartjs-2';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
@@ -25,7 +26,8 @@ ChartJS.register(
   Tooltip,
   Legend,
   ArcElement,
-  BarElement
+  BarElement,
+  Filler
 );
 
 export const DashboardCharts: React.FC = () => {
